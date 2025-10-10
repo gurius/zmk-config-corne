@@ -53,8 +53,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp C_POWER  &kp UP_ARROW  &trans           &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp RS(C_PREV)  &kp C_NEXT        &kp C_PLAY_PAUSE   &kp DEL
-&trans  &kp LEFT     &kp DOWN      &kp RIGHT_ARROW  &trans           &trans             &kp CAPS           &kp HOME         &kp END         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&trans  &kp C_POWER  &kp UP_ARROW  &trans           &rgb_ug RGB_EFF  &rgb_ug RGB_BRI    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp RS(C_PREV)  &kp C_NEXT        &kp C_PLAY_PAUSE   &kp DEL
+&trans  &kp LEFT     &kp DOWN      &kp RIGHT_ARROW  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD    &kp CAPS           &kp HOME         &kp END         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
 &trans  &trans       &trans        &kp C_AC_COPY    &kp C_AC_PASTE   &trans             &trans             &trans           &trans          &trans            &trans             &trans
                                    &kp LCTRL        &kp LEFT_ALT     &kp LEFT_GUI       &kp LEFT_GUI       &trans           &kp LCTRL
             >;
@@ -62,9 +62,9 @@
 
         fn_layer {
             bindings = <
-&rgb_ug RGB_TOG  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &kp F6          &kp F7         &kp F8    &kp F9          &kp F10          &kp F11
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &kp KP_NUMLOCK  &trans         &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI    &kp PAGE_UP     &kp PAGE_DOWN  &kp LEFT  &kp RIGHT       &trans           &kp F12
+&rgb_ug RGB_TOG  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &kp F6          &kp F7         &kp F8         &kp F9          &kp F10          &kp F11
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &kp KP_NUMLOCK  &kp K_BACK     &kp K_FORWARD  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp K_REFRESH
+&rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI    &kp PAGE_UP     &kp PAGE_DOWN  &kp LEFT       &kp RIGHT       &trans           &kp F12
                                                    &kp LCTRL        &kp LEFT_ALT     &kp LEFT_GUI       &kp UP          &kp DOWN       &trans
             >;
         };
